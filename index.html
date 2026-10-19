@@ -1,12 +1,15 @@
 <!doctype html><html lang="th"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#14121f"><title>ออฟฟิศพี่ตี้ 🏢</title><link rel="stylesheet" href="office.css"></head><body>
+<meta name="theme-color" content="#14121f"><title>ออฟฟิศพี่ตี้ 🏢</title><link rel="stylesheet" href="office.css"></head><body><div id="frame">
 <header><h1>🏢 ออฟฟิศพี่ตี้</h1><div id="clock"></div><p class="sub">แอบส่องพนักงานทำงาน 👀 แตะที่ตัวละครเพื่อดูสถานะ · เลื่อนซ้าย-ขวาได้</p></header>
-<div id="wrap"><div id="scene"><img id="room" src="art/room/day.jpg" alt=""><div id="doorsign">👑 ท่านตี้</div><div id="layer"></div><div id="tint"></div></div></div>
-<section class="panels">
- <div class="panel" id="board"><h3>📋 กระดานงาน</h3><div class="cols"><div><b>ต้องทำ</b><ul id="t-todo"></ul></div><div><b>กำลังทำ</b><ul id="t-doing"></ul></div><div><b>เสร็จแล้ว</b><ul id="t-done"></ul></div></div></div>
- <div class="panel" id="chat"><h3># ห้องแชททีม <span id="online"></span></h3><div id="feed"></div></div>
-</section>
+<main id="app"><div id="wrap"><div id="scene"><img id="room" src="art/room/day.jpg" alt=""><div id="doorsign">👑 ท่านตี้</div><div id="layer"></div><div id="tint"></div></div></div>
+<aside id="side"><div class="tabs"><button class="tab on" id="tab-chat">💬 ห้องแชท</button><button class="tab" id="tab-board">📋 บอร์ดงาน<i id="dot" hidden></i></button></div>
+<div id="v-chat"><div id="meters"><div class="mhd">⚡ OFFICE METERS · มิเตอร์ออฟฟิศ</div><div id="mcards"></div><div id="mrows"></div></div><div class="ch-head"><b><span class="hash">#</span> ออฟฟิศพี่ตี้</b><span class="on"><i></i><span id="members"></span></span><button id="snd" title="เสียงแจ้งเตือน">🔇</button></div>
+<div id="feed"></div><div id="typing"></div>
+<form id="composer"><input id="msgin" placeholder="ส่งข้อความถึง #ออฟฟิศพี่ตี้ (ลอง: กาแฟ / ประชุม / กลับบ้าน)" maxlength="140" autocomplete="off"><button aria-label="ส่ง">➤</button></form>
+<div class="hint">🎮 เล่นสนุกเท่านั้น — ข้อความไม่ได้ส่งถึงเอเจนต์จริง คำตอบเป็นข้อความสำเร็จรูป</div></div>
+<div id="v-board" hidden><div class="cols"><div><b>ต้องทำ</b><ul id="t-todo"></ul></div><div><b>กำลังทำ</b><ul id="t-doing"></ul></div><div><b>เสร็จแล้ว</b><ul id="t-done"></ul></div></div><div class="hint">ดึงจาก status.json ทุก 60 วินาที</div></div>
+</aside></main>
 <div id="card" class="hidden"><div class="cardin"><button id="close" aria-label="ปิด">✕</button><div id="cface"></div><h2 id="cname"></h2><div id="crole"></div><div id="cdept"></div><div id="cstatus"></div><div id="cupd"></div></div></div>
 <footer>เจ้าของบริษัท: ท่านตี้ 👑 · สถานะจาก status.json<br>Office art © 2026 W17ANT (Claude-Office), MIT — <a href="CREDITS.md">credits</a></footer>
-<script src="office.js"></script></body></html>
+</div><script src="office.js"></script></body></html>
