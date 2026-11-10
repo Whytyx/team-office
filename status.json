@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T11:33:59+07:00",
+ "updated": "2026-11-10T11:40:55+07:00",
  "agents": {
   "ซัส": {
    "status": "ทำเว็บต้นแบบ The Brief",
@@ -38,8 +38,8 @@
    "updated": "2026-11-09T10:06:19+07:00"
   },
   "พิก": {
-   "status": "ทำการ์ด NYSE Avalanche 11:30",
-   "updated": "2026-11-10T11:33:59+07:00"
+   "status": "การ์ด NYSE Avalanche 11:30 เสร็จ",
+   "updated": "2026-11-10T11:40:55+07:00"
   }
  },
  "tasks": [
@@ -57,16 +57,6 @@
    "text": "ทำเว็บต้นแบบ The Brief",
    "owner": "ซัส",
    "state": "doing"
-  },
-  {
-   "text": "ทำการ์ด NYSE Avalanche 11:30",
-   "owner": "พิก",
-   "state": "doing"
-  },
-  {
-   "text": "ขึ้นเว็บจริง v72 แล้ว",
-   "owner": "ซันนี่",
-   "state": "done"
   },
   {
    "text": "ต้นแบบ Allergen Matrix พร้อมพรีวิว",
@@ -101,6 +91,11 @@
   {
    "text": "ตรวจแล้วขึ้นโทนบริษัทบนเว็บจริง",
    "owner": "ซันนี่",
+   "state": "done"
+  },
+  {
+   "text": "การ์ด NYSE Avalanche 11:30 เสร็จ",
+   "owner": "พิก",
    "state": "done"
   }
  ]
