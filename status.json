@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T15:15:23+07:00",
+ "updated": "2026-11-10T15:21:30+07:00",
  "agents": {
   "ซัส": {
-   "status": "ทำเดโมถ้วยโยเกิร์ต SUDGREEEK",
-   "updated": "2026-11-10T15:15:23+07:00"
+   "status": "ทำเดโมถ้วยโยเกิร์ต SUDGREEEK เสร็จแล้ว",
+   "updated": "2026-11-10T15:21:30+07:00"
   },
   "ซันนี่": {
    "status": "ตรวจแล้วขึ้นโทนบริษัทบนเว็บจริง",
@@ -54,16 +54,6 @@
    "state": "doing"
   },
   {
-   "text": "ทำเดโมถ้วยโยเกิร์ต SUDGREEEK",
-   "owner": "ซัส",
-   "state": "doing"
-  },
-  {
-   "text": "ต้นแบบ Allergen Matrix พร้อมพรีวิว",
-   "owner": "ซันนี่",
-   "state": "done"
-  },
-  {
    "text": "Allergen Matrix สองภาษาขึ้นพรีวิว",
    "owner": "ซันนี่",
    "state": "done"
@@ -96,6 +86,11 @@
   {
    "text": "การ์ด NYSE Avalanche 11:30 เสร็จ",
    "owner": "พิก",
+   "state": "done"
+  },
+  {
+   "text": "ทำเดโมถ้วยโยเกิร์ต SUDGREEEK เสร็จแล้ว",
+   "owner": "ซัส",
    "state": "done"
   }
  ]
